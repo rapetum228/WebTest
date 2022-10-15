@@ -1,0 +1,34 @@
+<!DOCTYPE HTML> 
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Задание 2.4</title>
+    <meta name="description" content="Описание страницы" />
+    <link rel="icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <form action="" class="railway">
+        <div class="stripes-block">
+        <div class="line"></div>
+        </div>
+        <h3>Информация о пассажире</h3>
+        <div class="form-group">
+        <input type="text" id="name" ><label for="name">Имя</label>
+        <input type="text" id="pass" ><label for="pass">Серия и номер паспорта</label>
+        <input type="text" id="email" ><label for="email">Email</label>
+        <input type="text" id="phone" ><label for="phone">Номер телефона</label>
+        </div>
+        <div class="sub-block">
+        <div class="sub-button">
+            <button type="button" >Отправить</button>
+        </div>
+        <div class="undo-button">
+            <button type="button" onclick="undoForm()">Назад</button>
+            </div>
+        </div>
+        </form>
+  </body>
+  <script src="task24.js"></script>
+</html>

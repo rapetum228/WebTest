@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>METANIT.COM</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <h2>Введите данные (валидации нет):</h2>
+    <form action="watch.php" method="POST">
+        <p>Введите часы: <input type="text" name="hours" /></p>
+        <p>Введите минуты: <input type="text" name="minutes" /></p>
+        <input type="submit" value="Получить результат">
+    </form>
+    <br/>
+    <h2>Введите данные (валидации нет, капитализация раз в месяц, проценты прибавляются к вкладу):</h2>
+    <form action="deposite.php" method="POST">
+        <p>Введите сумму вклада: <input type="text" name="summ" /></p>
+        <p>Введите годовой процент: <input type="text" name="percent" /></p>
+        <p>Введите срок в месяцах: <input type="text" name="deposite_term" /></p>
+        <input type="submit" value="Получить результат">
+    </form>
+    <h2>Калькулятор:</h2>
+    <form action="calculate.php" method="POST">
+        <p>Введите первое число: <input type="text" name="num1" /></p>
+        <select name="operation" style="font-size:30px">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+          </select>
+        <p>Введите второе число: <input type="text" name="num2" /></p>
+        
+        <input type="submit" value="Получить результат">
+    </form>   
+</body>
+</html>
